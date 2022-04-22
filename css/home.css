@@ -7,8 +7,11 @@ html{
 	height: 100vh;
 }
 
+body{
+	margin: 0;
+}
 
-/* Add a black background color to the top navigation */
+/* Add a white background color to the top navigation */
 .topnav {
   background-color: white;
   overflow: hidden;
@@ -23,7 +26,9 @@ html{
   text-decoration: none;
   font-size: 17px;
   font-family: 'Poppins', sans-serif;
+  border-bottom: 5px solid #f2415c ;
 }
+
 
 /* Change the color of links on hover */
 .topnav a:hover {
@@ -50,7 +55,7 @@ html{
 }
 
 
-}
+
 
 header{
 	
@@ -68,6 +73,7 @@ header img{
 	max-height: 100%;
 	border: 10px solid white;
 	border-radius: 60px;
+	margin-left: 15px;
 	
 }
 

@@ -4,7 +4,7 @@ header {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	height: 100vh;
+	height: 600px;
 	text-align: center;
 	padding-top:50px ;
 	padding-bottom: 50px;
@@ -92,7 +92,7 @@ p {
 	font-size: 18px;
 	margin: 20px;
 	color: black;
-	text-align: left;
+	text-align: center;
 
 }
 
@@ -102,6 +102,7 @@ h2 {
 	color: #f2415c;
 	margin: 40px 0 10px;
 	font-size: 35px;
+	text-align: center;
 }
 
 ul {
@@ -111,10 +112,28 @@ ul {
 }
 
 a{
-	color:#f2415c ;
+	color:#f2415c;
 }
+
 a:hover{
  	color: white;
  	background-color:#f2415c ;
  }
 
+footer p{
+	margin: 0;
+	font-size: 13px;
+}
+
+footer{
+	background-color:#f2415c ;
+	text-align: center;
+	font-size: 10px;
+	color: white;
+	padding: 5px;
+
+}
+
+footer a{
+	color:#2287f2 ;
+}
