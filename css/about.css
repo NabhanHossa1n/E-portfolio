@@ -118,3 +118,7 @@ a:hover{
  	background-color:#f2415c ;
  }
 
+::selection {
+  color: white;
+  background: #f2415c;
+}

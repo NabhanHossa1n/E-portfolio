@@ -1,17 +1,29 @@
-html{
+header {
 
-
+	margin: 0;
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
+	text-align: center;
+	padding-top:50px ;
+	padding-bottom: 50px;
+
 }
 
 body{
 	margin: 0;
 }
 
-/* Add a white background color to the top navigation */
+main {
+	margin: 20px;
+	padding: 10px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+
+/* Add a black background color to the top navigation */
 .topnav {
   background-color: white;
   overflow: hidden;
@@ -28,7 +40,6 @@ body{
   font-family: 'Poppins', sans-serif;
   border-bottom: 5px solid #f2415c ;
 }
-
 
 /* Change the color of links on hover */
 .topnav a:hover {
@@ -57,59 +68,67 @@ body{
 
 
 
-header{
-	
-	text-align: center;
-	padding-top:50px ;
-	padding-bottom: 50px;
-}
-
 header img{
 
-	float: left;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	max-height: 100%;
-	max-height: 100%;
-	border: 10px solid white;
-	border-radius: 60px;
-	margin-left: 15px;
-	
+	border-radius: 80px;
+	height: 550px;
+	border:20px solid ;
+  border-top-color: #f2415c ;
+  border-left-color: #f2415c ;
+  border-right-color:white ;
+  border-bottom-color:white ;
+}
+
+main img{
+
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 10px double #f2415c;
 }
 
 header h1 {
 
 	font-family:  'Poppins', sans-serif;
-	font-size: 70px;
-	margin: 50px;
+	font-size: 50px;
 	color: white;
 	text-align: center;
-	line-height: 400px;
+	
 }
 
-header p{
+p {
 	font-family:  'Poppins', sans-serif;
-	font-size: 30px;
-	margin: 50px;
-	color: white;
-	text-align: center;
-	line-height: 0px;
+	font-size: 18px;
+	margin: 20px;
+	color: black;
+	text-align: left;
+
 }
 
-main p{
-
-	padding: 30px;
+h2 {
+	
 	font-family:  'Poppins', sans-serif;
-	color: white;
-	text-align: center;
+	color: #f2415c;
+	margin: 40px 0 10px;
+	font-size: 35px;
 }
 
+ul {
 
+	font-family:  'Poppins', sans-serif;
+	font-size: 15px;
+}
 
-
+a{
+	color:#f2415c ;
+}
+a:hover{
+ 	color: white;
+ 	background-color:#f2415c ;
+ }
 
 ::selection {
   color: white;
   background: #f2415c;
 }
-

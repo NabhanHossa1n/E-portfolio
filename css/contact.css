@@ -137,3 +137,7 @@ footer{
 footer a{
 	color:#2287f2 ;
 }
+::selection {
+  color: white;
+  background: #f2415c;
+}
